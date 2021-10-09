@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background-color: #e6eff6;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  width: 45%;
+  overflow: hidden;
+}
+.container .containertwo {
+  box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 0.45rem;
+  overflow: hidden;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 300px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1150px) {
+  .container {
+    width: 500px;
+  }
+}
+.container .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  place-content: center;
+}
+.container .ml {
+  margin: 0 1em;
+}
+.container .first-section,
+.container .second-section,
+.container .third-section {
+  padding: 1.7rem 1.5rem;
+}
+.container .first-section {
+  background-color: #fff;
+}
+.container .first-section .mainheading {
+  margin-top: 0.5em;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  color: #2ab2ab;
+}
+.container .first-section .subheading {
+  font-size: 1.2rem;
+  padding-bottom: 0.7em;
+  color: #c0df34;
+}
+.container .first-section .first-p {
+  font-size: 0.9rem;
+  color: #98a6bd;
+  line-height: 1.7rem;
+}
+.container .second-section {
+  padding-top: 2em;
+  height: 100%;
+  color: #fff;
+  background: #2ab2ab;
+}
+.container .second-section .ms-heading {
+  font-size: 1.2em;
+  padding-bottom: 1rem;
+}
+.container .second-section .price {
+  margin-left: 0.5em;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.container .second-section .pm {
+  position: relative;
+  top: -0.35em;
+  left: -1.5em;
+  font-size: 1rem;
+  color: #a7e7e4;
+  display: inline;
+}
+.container .second-section .second-p {
+  padding: 0.5em 0 1.5em 0;
+  font-size: 1rem;
+}
+.container .second-section .cta {
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.8em 0;
+  display: block;
+  border-radius: 0.3rem;
+  background: #c0df34;
+  box-shadow: 0px 7px 33px -2px rgba(0, 0, 0, 0.2);
+}
+.container .second-section .cta:hover {
+  color: #2ab2ab;
+  background-color: #fff;
+}
+.container .third-section {
+  height: 100%;
+  color: #fff;
+  background: #35c0b9;
+}
+.container .third-section .wu-heading {
+  margin-top: 0.5em;
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+.container .third-section .list {
+  font-size: 0.9rem;
+  list-style: none;
+  line-height: 1.4em;
+  color: rgba(223, 243, 242, 0.95);
+  margin-bottom: 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */
